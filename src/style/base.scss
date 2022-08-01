@@ -1,0 +1,37 @@
+@import './reset.scss';
+@import './util.scss';
+$mainColor: #F5A623;
+
+.root-color {
+    color: $mainColor; 
+}
+
+.root-background-color {
+    background-color: $mainColor;
+}
+
+.root-border,
+.root-border-color {
+    border-color: $mainColor;
+}
+
+.root-border-top,
+.root-border-top-color {
+    border-top-color: $mainColor;
+}
+
+.root-border-bottom,
+.root-border-bottom-color {
+    border-bottom-color: $mainColor;
+}
+
+.root-border-left,
+.root-border-left-color {
+    border-left-color: $mainColor;
+}
+
+.root-border-right,
+.root-border-right-color {
+    border-right-color: $mainColor;
+}
+

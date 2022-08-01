@@ -1,2 +1,5 @@
-# extract-color
-有趣的玩法
+# 有趣的玩法
+
+一个前端的朋友问我，接手的一个Vue项目，想做换肤，之前又没有做这个准备，不想去手写处理，有没有什么好方法。
+
+我尝试了包装VueLoader的parseComponent，用postcss提取当前文件的style，获取相应的类名，通过类名去给vue的template添加相应的类。这样就能通过改变类的颜色来修改颜色。
